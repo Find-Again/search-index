@@ -1,0 +1,11 @@
+{
+	"searches": {
+		"TODO & FIXME comments": {
+			"query": "TODO|FIXME",
+			"include": "**/src/**",
+			"exclude": "**/*.{md,txt,json}, **/__tests__/**, **/test/**",
+			"regex": true,
+			"description": "Find Inline Reminders in Source Files Only"
+		}
+	}
+}
